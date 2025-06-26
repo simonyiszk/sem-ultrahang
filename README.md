@@ -21,10 +21,10 @@ Kapcsolóüzemű végerősítőfokozat gyanánt H-hidat, a prototípusban TC4427
   - [X] Komplett prototípus megépítése breadboard-on
   - [ ] **Dokumentálás**
   - [ ] **Áramkörtervezés**
-- [ ] Jelforrás specifikációja
-  - [ ] Szükséges terveznivalók
-- [ ] Végfok
-  - [ ] H-híd tervezése (szükséges egyáltalán?)
+- [X] Jelforrás specifikációja
+  - [X] Szükséges terveznivalók
+- [X] Végfok
+  - [X] H-híd tervezése (szükséges egyáltalán?)
 - [ ] Hangszórómátrix
 - [ ] Rendszerintegráció
   - [ ] NYÁK tervezés
@@ -32,11 +32,11 @@ Kapcsolóüzemű végerősítőfokozat gyanánt H-hidat, a prototípusban TC4427
   - [ ] Beültetés
 
 ### Side quest-ek
-- [ ] **Ultrahangos lebegtető**
+- [X] **Ultrahangos lebegtető**
   - [X] TC4427 tesztje
-  - [ ] **Oszcillátor aszimmetrikus táplálásának megoldása**
-  - [ ] **Hullámhossz meghatározása a pozicionáláshoz**
-  - [ ] Önjáró prototípus megépítése (amihez csak táp kell, és működik)
+  - [X] **Oszcillátor aszimmetrikus táplálásának megoldása**
+  - [X] **Hullámhossz meghatározása a pozicionáláshoz**
+  - [X] Önjáró prototípus megépítése (amihez csak táp kell, és működik)
 - [ ] Tápegység tervezése
   - TBD
 
