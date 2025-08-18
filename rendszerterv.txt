@@ -1,0 +1,11 @@
+Rendszerterv:
+
+ Modulok:
+    - Analóg jelgenerátor (OSC) + PWM (leválasztható analóg bemenettel)
+    - Driver + H-híd (2 db, a fázistolós lebegtetés végett)
+    - Hangszórós modulok (szimpla, array)
+    - Mikrovezérlős modul (PWM-hez)
+    - Tápegység (work in progress)
+    - Analóg bemenet (analóg PWM elé: mikrofon, jack, stb.)
+
+ NYÁK-ot gyártsuk házilag :O
