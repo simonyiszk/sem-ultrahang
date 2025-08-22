@@ -249,7 +249,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lebegteto_analog.kicad_pro",
+    "filename": "szendvicspanel.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -414,7 +414,7 @@
     ],
     [
       "76c3ce23-0441-427c-b036-019b5956bfe7",
-      "jelgen"
+      "Jelgenerátor és analóg modul"
     ],
     [
       "a74ce5ac-a8f3-4ecc-b7a3-0ff9c35ee749",

@@ -509,7 +509,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "76c3ce23-0441-427c-b036-019b5956bfe7")
-		(property "Sheetname" "jelgen"
+		(property "Sheetname" "Jelgenerátor és analóg modul"
 			(at 54.61 37.3884 0)
 			(effects
 				(font
@@ -558,7 +558,7 @@
 			)
 		)
 		(instances
-			(project "lebegteto_analog"
+			(project "szendvicspanel"
 				(path "/69584044-3e78-46a7-9ace-309a005e8329"
 					(page "2")
 				)
@@ -630,7 +630,7 @@
 			)
 		)
 		(instances
-			(project "lebegteto_analog"
+			(project "szendvicspanel"
 				(path "/69584044-3e78-46a7-9ace-309a005e8329"
 					(page "4")
 				)
