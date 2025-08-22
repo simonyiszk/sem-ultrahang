@@ -690,144 +690,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Variable"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 -2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Variable"
-				(at -2.54 -1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Variable resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor variable potentiometer rheostat"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Variable_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.524) (xy 2.54 2.54) (xy 1.524 2.54) (xy 2.54 2.54) (xy -2.032 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Variable_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -1103,6 +965,10 @@
 		(color 0 0 0 0)
 		(uuid "f673d3cd-f483-41c5-b685-bc7f03395daa")
 	)
+	(no_connect
+		(at 123.19 124.46)
+		(uuid "51f5e87f-13a6-40fd-b065-8fd87d3f92bf")
+	)
 	(wire
 		(pts
 			(xy 78.74 88.9) (xy 107.95 88.9)
@@ -1225,16 +1091,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 97.79) (xy 99.06 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37a006bb-a0bd-444b-a2c0-87ae34f82f90")
-	)
-	(wire
-		(pts
 			(xy 121.92 69.85) (xy 78.74 69.85)
 		)
 		(stroke
@@ -1325,6 +1181,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 124.46) (xy 132.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7694bb63-070f-475f-8994-5602844209c7")
+	)
+	(wire
+		(pts
 			(xy 78.74 100.33) (xy 78.74 88.9)
 		)
 		(stroke
@@ -1352,6 +1218,16 @@
 			(type default)
 		)
 		(uuid "89720016-95ed-4d8c-962a-386845993bdd")
+	)
+	(wire
+		(pts
+			(xy 99.06 97.79) (xy 99.06 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5a17d7-193c-4191-8822-bd38ccc32596")
 	)
 	(wire
 		(pts
@@ -1425,16 +1301,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 124.46) (xy 132.08 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4c1ed99-4a2b-40d0-8d96-a1407fdcf9b7")
-	)
-	(wire
-		(pts
 			(xy 49.53 86.36) (xy 63.5 86.36)
 		)
 		(stroke
@@ -1492,6 +1358,16 @@
 			(type default)
 		)
 		(uuid "e0ce3e15-90ab-47ee-aa0a-e521788c00d4")
+	)
+	(wire
+		(pts
+			(xy 135.89 128.27) (xy 99.06 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf18072-5389-4d88-b12a-3570724ac11e")
 	)
 	(wire
 		(pts
@@ -1567,6 +1443,77 @@
 		(uuid "cf24cc98-f115-4374-8ac8-924028289df3")
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 135.89 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f688f14-3590-422c-aa7b-b3588248561f")
+		(property "Reference" "RV3"
+			(at 135.89 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 135.89 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T93YA_Vertical"
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ded32e5-4f59-4676-8f4f-a49a652b0852")
+		)
+		(pin "3"
+			(uuid "05236271-6249-4a8b-9308-de6eb1efc311")
+		)
+		(pin "2"
+			(uuid "a4bcf65f-3265-44e0-b4a4-3b6c32bd7071")
+		)
+		(instances
+			(project "szendvicspanel"
+				(path "/69584044-3e78-46a7-9ace-309a005e8329/76c3ce23-0441-427c-b036-019b5956bfe7"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 111.76 43.18 90)
 		(unit 1)
@@ -1592,7 +1539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 115.57 42.2148 0)
 			(effects
 				(font
@@ -1728,7 +1675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 60.96 55.88 0)
 			(effects
 				(font
@@ -1882,7 +1829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T93YA_Vertical"
 			(at 45.72 86.36 0)
 			(effects
 				(font
@@ -1955,7 +1902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -2041,7 +1988,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 71.12 88.9 0)
 			(effects
 				(font
@@ -2193,7 +2140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 161.29 97.79 0)
 			(effects
 				(font
@@ -2279,7 +2226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 132.08 44.958 90)
 			(effects
 				(font
@@ -2347,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 121.92 95.25 0)
 			(effects
 				(font
@@ -2499,7 +2446,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 143.51 45.72 0)
 			(effects
 				(font
@@ -2585,7 +2532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 140.97 97.028 90)
 			(effects
 				(font
@@ -2653,7 +2600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 102.87 99.568 90)
 			(effects
 				(font
@@ -2721,7 +2668,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
 			(at 128.27 104.4448 0)
 			(effects
 				(font
@@ -2855,7 +2802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 152.4 79.248 90)
 			(effects
 				(font
@@ -2898,74 +2845,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Variable")
-		(at 135.89 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de74d950-1947-44c1-9e60-f9ed281a9edb")
-		(property "Reference" "R4"
-			(at 135.89 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Variable"
-			(at 135.89 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Variable resistor"
-			(at 135.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61abd053-41a9-4f3b-817a-b26311c42dd9")
-		)
-		(pin "1"
-			(uuid "7b8bf241-650a-48b1-ac67-17b13bf407fb")
-		)
-		(instances
-			(project "lebegteto_analog"
-				(path "/69584044-3e78-46a7-9ace-309a005e8329/76c3ce23-0441-427c-b036-019b5956bfe7"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 185.42 97.79 270)
 		(unit 1)
@@ -2991,7 +2870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T93YA_Vertical"
 			(at 185.42 97.79 0)
 			(effects
 				(font
