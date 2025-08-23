@@ -9,207 +9,10 @@
 		(date "2025-08-22")
 		(company "Schönherz Elektronikai Műhely")
 	)
-	(lib_symbols
-		(symbol "Device:Speaker_Ultrasound"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LS"
-				(at 0.635 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Speaker_Ultrasound"
-				(at 0.635 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.889 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.889 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ultrasonic transducer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "crystal speaker ultrasonic transducer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Speaker_Ultrasound_0_0"
-				(rectangle
-					(start -2.54 1.27)
-					(end 1.143 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.032 -0.635)
-					(end 0.635 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 -0.254) (xy 0.381 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 -2.286) (xy 0.381 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.254) (xy -0.635 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -2.286) (xy -0.635 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 1.27) (xy 3.683 3.81) (xy 3.683 -6.35) (xy 1.143 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Speaker_Ultrasound_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(text "TODO: H-híd + driver"
-		(exclude_from_sim no)
-		(at 113.538 25.654 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "768338a1-b0ff-4fdf-ba33-49068204b126")
-	)
+	(lib_symbols)
 	(text "TODO: mikrokontroller layer"
 		(exclude_from_sim no)
-		(at 115.062 71.374 0)
+		(at 104.394 69.088 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -217,288 +20,8 @@
 		)
 		(uuid "f1e892bc-68d1-4878-9705-70b150a9691e")
 	)
-	(junction
-		(at 171.45 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82acc2ff-09bb-42a5-a40c-51530cc5e207")
-	)
-	(junction
-		(at 168.91 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c657f2e7-a3fe-4fbf-b69c-4a088120ac30")
-	)
-	(no_connect
-		(at 34.29 36.83)
-		(uuid "6cfe833a-ba94-481c-9f76-dc0df5e26aaf")
-	)
-	(no_connect
-		(at 92.71 45.72)
-		(uuid "9a665313-8777-47b0-852e-503d3890b793")
-	)
-	(wire
-		(pts
-			(xy 168.91 43.18) (xy 168.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08452d1d-6aa1-4b40-8ab0-175491cab0d3")
-	)
-	(wire
-		(pts
-			(xy 168.91 54.61) (xy 177.8 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aa798e6-1b3b-453f-81e4-8123a675591a")
-	)
-	(wire
-		(pts
-			(xy 168.91 43.18) (xy 168.91 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29c666b4-72ee-4fe0-863e-bca5bb829747")
-	)
-	(wire
-		(pts
-			(xy 171.45 49.53) (xy 137.16 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f9c122-e6bd-4c37-96fd-c60bf11982c0")
-	)
-	(wire
-		(pts
-			(xy 92.71 45.72) (xy 99.06 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62174b7f-2868-4a0c-957a-17d2b98672a2")
-	)
-	(wire
-		(pts
-			(xy 177.8 57.15) (xy 171.45 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "626759d4-1163-48a9-a36c-37164ab0f358")
-	)
-	(wire
-		(pts
-			(xy 34.29 36.83) (xy 41.91 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "859f27f7-89f0-440f-8728-18c7ae90f2fe")
-	)
-	(wire
-		(pts
-			(xy 177.8 41.91) (xy 171.45 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7209074-f64e-4c1b-99b0-40d90af3cf5d")
-	)
-	(wire
-		(pts
-			(xy 168.91 39.37) (xy 177.8 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9711e67-6f7a-4002-bee3-8091cb786052")
-	)
-	(wire
-		(pts
-			(xy 137.16 43.18) (xy 168.91 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e12693-be75-4eee-a875-93bd7a009e11")
-	)
-	(wire
-		(pts
-			(xy 171.45 57.15) (xy 171.45 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f44451b3-c012-4cd5-8335-4ce72c7b773c")
-	)
-	(wire
-		(pts
-			(xy 171.45 41.91) (xy 171.45 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9db5de9-d5cd-47eb-9922-a1c7bf2e325e")
-	)
-	(symbol
-		(lib_id "Device:Speaker_Ultrasound")
-		(at 182.88 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "073342a1-861a-4e8a-be7f-653ed1af4a72")
-		(property "Reference" "LS2"
-			(at 187.96 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Speaker_Ultrasound"
-			(at 187.96 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal"
-			(at 181.991 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.991 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultrasonic transducer"
-			(at 182.88 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "917a20b3-1131-4d22-ad38-32b66e1caaf4")
-		)
-		(pin "2"
-			(uuid "3a5cb347-9ef2-46bf-a0bf-c6d94be34171")
-		)
-		(instances
-			(project "lebegteto_analog"
-				(path "/69584044-3e78-46a7-9ace-309a005e8329"
-					(reference "LS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Speaker_Ultrasound")
-		(at 182.88 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f20b9e8f-ef41-45ce-b373-a20948e76eff")
-		(property "Reference" "LS1"
-			(at 187.96 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Speaker_Ultrasound"
-			(at 187.96 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Horizontal"
-			(at 181.991 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.991 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ultrasonic transducer"
-			(at 182.88 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6ee246f-5cce-471b-909e-ec220b85ae74")
-		)
-		(pin "2"
-			(uuid "736c78ab-96cc-4b2a-8049-06dd7be9eb53")
-		)
-		(instances
-			(project ""
-				(path "/69584044-3e78-46a7-9ace-309a005e8329"
-					(reference "LS1")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 41.91 29.21)
+		(at 49.53 31.75)
 		(size 27.94 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -514,7 +37,7 @@
 		)
 		(uuid "76c3ce23-0441-427c-b036-019b5956bfe7")
 		(property "Sheetname" "Jelgenerátor és analóg modul"
-			(at 41.91 28.4984 0)
+			(at 49.53 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,22 +46,12 @@
 			)
 		)
 		(property "Sheetfile" "jelgen.kicad_sch"
-			(at 41.91 46.3046 0)
+			(at 49.53 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "analog_input" input
-			(at 41.91 36.83 180)
-			(uuid "dd890f7e-e44f-4220-8545-2fbd08eb084a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances
@@ -550,8 +63,8 @@
 		)
 	)
 	(sheet
-		(at 99.06 36.83)
-		(size 38.1 17.78)
+		(at 49.53 58.42)
+		(size 27.94 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -566,7 +79,7 @@
 		)
 		(uuid "a74ce5ac-a8f3-4ecc-b7a3-0ff9c35ee749")
 		(property "Sheetname" "CMOS H-híd és driver modul"
-			(at 99.06 36.1184 0)
+			(at 49.53 57.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -575,42 +88,12 @@
 			)
 		)
 		(property "Sheetfile" "hbridge.kicad_sch"
-			(at 99.06 55.1946 0)
+			(at 49.53 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "output A" input
-			(at 137.16 43.18 0)
-			(uuid "b059b7d6-cdfa-4f3b-926d-2f6d658450e7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "output B" input
-			(at 137.16 49.53 0)
-			(uuid "974ee7e7-f65b-46ad-91e4-c1c6fc93f8cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "input" input
-			(at 99.06 45.72 180)
-			(uuid "6371e57e-1db3-4acb-bf57-2990b81572fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(instances

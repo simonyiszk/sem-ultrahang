@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "szendvicspanel.kicad_prl",
+    "filename": "hbridge.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
