@@ -25,9 +25,20 @@
 		)
 		(uuid "a3279b30-2950-452e-a5bf-1ec406db8be7")
 	)
+	(hierarchical_label "ANALOG_IN"
+		(shape input)
+		(at 52.07 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "212d5774-b547-4660-93e5-f075daad3f61")
+	)
 	(hierarchical_label "+5V"
 		(shape input)
-		(at 52.07 68.58 0)
+		(at 52.07 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)

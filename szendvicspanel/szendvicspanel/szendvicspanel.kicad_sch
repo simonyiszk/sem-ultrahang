@@ -972,6 +972,16 @@
 				(justify left)
 			)
 		)
+		(pin "ANALOG_IN" input
+			(at 121.92 156.21 180)
+			(uuid "a7820c59-b9fe-4d1f-b234-0c06331ae8ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
