@@ -1,0 +1,61 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "45ed4215-b4a5-4bc8-9f28-0c645a5f2f1b")
+	(paper "A4")
+	(lib_symbols)
+	(text "tanfolyampanel"
+		(exclude_from_sim no)
+		(at 77.724 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b6741a9-020d-456b-9488-8cdb38d56290")
+	)
+	(text "(TODO) (lehet hogy több PWM van)"
+		(exclude_from_sim no)
+		(at 100.33 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3279b30-2950-452e-a5bf-1ec406db8be7")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 52.07 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e524200d-0dfb-4355-b7ec-3f3ab4185ea3")
+	)
+	(hierarchical_label "PWM"
+		(shape output)
+		(at 102.87 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed30717f-70a4-4ad7-aaf4-744f04492100")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 52.07 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff5e57db-7ec5-4cac-afef-edf8fa6d8e25")
+	)
+)

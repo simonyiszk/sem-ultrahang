@@ -1,0 +1,40 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c5c9c959-717e-4e08-946c-a7e958866d3d")
+	(paper "A4")
+	(lib_symbols)
+	(text "TODO: 1 vagy több hangszóró"
+		(exclude_from_sim no)
+		(at 121.158 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d8cbc23-1e41-4a4c-ae35-ea5e48d28bdd")
+	)
+	(hierarchical_label "IN_A"
+		(shape input)
+		(at 86.36 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40113c42-1d24-4df5-9078-da068d86a23f")
+	)
+	(hierarchical_label "IN_B"
+		(shape input)
+		(at 86.36 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2d225e0-abc0-4451-8c8e-93113faee6f9")
+	)
+)

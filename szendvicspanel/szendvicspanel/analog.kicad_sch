@@ -1,0 +1,61 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f8c9db59-a3d3-4f9e-a305-6751f65897b8")
+	(paper "A4")
+	(lib_symbols)
+	(text "Jack-ből analóg jelet csinál"
+		(exclude_from_sim no)
+		(at 116.84 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4ccb6f7-cbcb-4d8d-94f6-f282b330b56c")
+	)
+	(text "INPUT: Jack"
+		(exclude_from_sim no)
+		(at 96.266 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d222c96b-bf6f-4ddb-84a3-3367d2ef1777")
+	)
+	(hierarchical_label "ANALOG_OUT"
+		(shape output)
+		(at 137.16 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27ff0bef-27fc-4039-8724-7643ee5c29a3")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 90.17 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6755cef3-0cab-490a-b1b7-582e85f07057")
+	)
+	(hierarchical_label "VPWR"
+		(shape input)
+		(at 90.17 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c97fd313-a843-406f-aac1-c17f0b6237a1")
+	)
+)

@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f7670cfa-9c8c-4aa4-91d3-ead739118674")
+	(paper "A4")
+	(lib_symbols)
+	(text "TODO: Boost-conv\n\n5V-ból kb. 16V"
+		(exclude_from_sim no)
+		(at 91.948 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1397b48d-cce6-4ed0-9b10-4d4c1693f327")
+	)
+	(hierarchical_label "VPWR"
+		(shape output)
+		(at 140.97 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a9eb885-da51-4ca6-8dea-b67923d20d6b")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 45.72 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7148451e-acd4-4a8a-9890-13a2f258f9e2")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 45.72 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2dc5f5a-1a83-4c1b-8def-e0bb7129cda1")
+	)
+)

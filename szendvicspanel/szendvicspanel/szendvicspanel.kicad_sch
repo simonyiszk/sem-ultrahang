@@ -1,0 +1,1153 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2e536be4-7a69-4064-ab31-c73232c2dcfe")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "VAGY"
+		(exclude_from_sim no)
+		(at 139.954 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2bd82d38-c63c-4234-81c8-2c3cab3d7584")
+	)
+	(text "TODO: 8 féle PWM 8 külön H-hídnak"
+		(exclude_from_sim no)
+		(at 186.182 144.526 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e29d4de4-aaec-4179-ae5b-ea518352d18b")
+	)
+	(junction
+		(at 113.03 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "640aaf4e-8052-4c9f-9af4-b0dff8796b27")
+	)
+	(junction
+		(at 167.64 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ec91dae-336d-4289-9776-2635a9b035eb")
+	)
+	(wire
+		(pts
+			(xy 66.04 128.27) (xy 72.39 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034800a4-ad1c-421b-8f7e-51814e05e7e2")
+	)
+	(wire
+		(pts
+			(xy 66.04 111.76) (xy 66.04 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102283ed-99e4-422a-8f64-01cdb106276a")
+	)
+	(wire
+		(pts
+			(xy 210.82 125.73) (xy 223.52 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b137cf0-5f28-4f0c-929f-563ca64ad9e5")
+	)
+	(wire
+		(pts
+			(xy 167.64 156.21) (xy 167.64 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1798f2-4b07-4891-930a-3f3f81cbcd90")
+	)
+	(wire
+		(pts
+			(xy 166.37 111.76) (xy 166.37 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27bfe079-b722-49a5-8978-13cd4091583f")
+	)
+	(wire
+		(pts
+			(xy 58.42 87.63) (xy 58.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e11c37-e9f4-4603-8eed-be860ca4038e")
+	)
+	(wire
+		(pts
+			(xy 157.48 128.27) (xy 167.64 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486f97cc-4e4c-40ee-9db5-69386487e8cb")
+	)
+	(wire
+		(pts
+			(xy 167.64 128.27) (xy 175.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6352779e-f9ad-42cc-b8a4-b9a8472193d9")
+	)
+	(wire
+		(pts
+			(xy 157.48 156.21) (xy 167.64 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650ad41d-d95e-44c0-8b0c-f4697e2bd09c")
+	)
+	(wire
+		(pts
+			(xy 113.03 111.76) (xy 66.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "769ef52c-0cce-4f4a-9408-4b86b9e9698a")
+	)
+	(wire
+		(pts
+			(xy 113.03 152.4) (xy 121.92 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792be48d-86a3-4adf-8f94-127c20ccfa15")
+	)
+	(wire
+		(pts
+			(xy 113.03 123.19) (xy 121.92 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838b9f4e-1a1c-46bc-a415-65ec5a8a8afb")
+	)
+	(wire
+		(pts
+			(xy 71.12 87.63) (xy 58.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a74aef6-51c9-4957-a72d-91f7b399e204")
+	)
+	(wire
+		(pts
+			(xy 113.03 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3070c9f-ab52-4c63-9c98-ebab54569a72")
+	)
+	(wire
+		(pts
+			(xy 113.03 92.71) (xy 113.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe8c3d0-060e-417d-a567-66bcbc885973")
+	)
+	(wire
+		(pts
+			(xy 107.95 92.71) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae193828-9fdb-4a51-b866-443723e3962a")
+	)
+	(wire
+		(pts
+			(xy 113.03 111.76) (xy 113.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2556d83-e86a-4af0-b33e-535bc54e691f")
+	)
+	(wire
+		(pts
+			(xy 166.37 124.46) (xy 175.26 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d795aa7c-c092-4e51-9971-7e4505fd5ff9")
+	)
+	(wire
+		(pts
+			(xy 210.82 132.08) (xy 223.52 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e895d096-3911-47e8-8563-fdb7c48f6995")
+	)
+	(wire
+		(pts
+			(xy 104.14 130.81) (xy 121.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2ec969-717a-44a2-8c86-b3ca7a5568a5")
+	)
+	(wire
+		(pts
+			(xy 58.42 102.87) (xy 71.12 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ebf7cd-137c-4332-b9ee-3503fcbed31e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f0cc0f-0e03-4573-940e-e502ab9c4275")
+		(property "Reference" "#PWR01"
+			(at 58.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3304db6-2040-4825-9c90-1ca16286559e")
+		)
+		(instances
+			(project ""
+				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 58.42 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a627e91-7434-4118-85cc-68a7e1917ed0")
+		(property "Reference" "#PWR02"
+			(at 58.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 58.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 58.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87a915e5-7d03-45c4-881a-2808cc91b4c7")
+		)
+		(instances
+			(project ""
+				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 113.03 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1bdff02-8ef6-49b2-8190-0744eff8fccc")
+		(property "Reference" "#PWR03"
+			(at 113.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5d25e4e-2de3-4f1c-b10f-10c0fc39c7bf")
+		)
+		(instances
+			(project ""
+				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 120.65)
+		(size 35.56 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2931c1ad-d139-4f81-b248-365d50218096")
+		(property "Sheetname" "analóg jelgen + PWM"
+			(at 121.92 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jelgen.kicad_sch"
+			(at 121.92 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TRI" output
+			(at 157.48 124.46 0)
+			(uuid "bb75a540-f2de-4c9b-8a77-31f5c752258b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANALOG_IN" input
+			(at 121.92 130.81 180)
+			(uuid "185f5ee4-a091-4aa2-bbc0-ded941af5bcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM" output
+			(at 157.48 128.27 0)
+			(uuid "93fb4c1e-b8f7-4285-9879-52360e024342")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 121.92 135.89 180)
+			(uuid "09316322-eee6-41df-bcaf-ea6c79270360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VPWR" input
+			(at 121.92 123.19 180)
+			(uuid "e93d8650-7510-4d91-83cc-48a7e9b159fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SQR" output
+			(at 157.48 132.08 0)
+			(uuid "e8e1f64e-5d6d-40c7-a6a7-b03511a396a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "szendvicspanel"
+				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 120.65)
+		(size 17.78 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d7afa5e-da4f-405a-93e5-09e185186447")
+		(property "Sheetname" "Hangszóró"
+			(at 223.52 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "speaker.kicad_sch"
+			(at 223.52 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_B" input
+			(at 223.52 132.08 180)
+			(uuid "8d1336dc-cf8a-4597-acd2-72ab049e4810")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_A" input
+			(at 223.52 125.73 180)
+			(uuid "38a229c8-dd62-4cd9-b413-e1056c0ae969")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "szendvicspanel"
+				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 124.46)
+		(size 31.75 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "956847b2-170c-4df3-ad01-276d0d878286")
+		(property "Sheetname" "Analóg interfész"
+			(at 72.39 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog.kicad_sch"
+			(at 72.39 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 72.39 134.62 180)
+			(uuid "d642357e-f350-4fb8-bfec-a73520781f59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ANALOG_OUT" output
+			(at 104.14 130.81 0)
+			(uuid "e4bac08d-c70b-459b-957e-9f8acba199dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VPWR" input
+			(at 72.39 128.27 180)
+			(uuid "b2371b94-036f-42ec-aff4-c0ac8d7001df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "szendvicspanel"
+				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 148.59)
+		(size 35.56 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b63b0694-ab31-493f-949f-73682bffa709")
+		(property "Sheetname" "Mikrovezérlő + PWM"
+			(at 121.92 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 121.92 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM" output
+			(at 157.48 156.21 0)
+			(uuid "6fcb625a-b28b-4234-ac7c-cce1151da0c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 121.92 160.02 180)
+			(uuid "e8f011c5-75a0-4930-b4f5-72835e660a5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 121.92 152.4 180)
+			(uuid "ae7174cc-a378-4af8-80b7-e3d9fa9bc7f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "szendvicspanel"
+				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 120.65)
+		(size 35.56 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b7fbd7b6-659a-4f89-885b-600b77c2197e")
+		(property "Sheetname" "H-híd + driver"
+			(at 175.26 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hbridge.kicad_sch"
+			(at 175.26 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VPWR" input
+			(at 175.26 124.46 180)
+			(uuid "9ece35ec-c38e-4354-83f4-f96a98dc5006")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 175.26 133.35 180)
+			(uuid "9678f3e8-c742-4944-b556-a588c5667ea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM" input
+			(at 175.26 128.27 180)
+			(uuid "7ca98254-40e0-4ca7-a24d-1fc6ae721738")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_B" output
+			(at 210.82 132.08 0)
+			(uuid "8abbd659-e85d-471c-bcaf-296e424d9271")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_A" output
+			(at 210.82 125.73 0)
+			(uuid "a8f28661-f1e3-4d14-aa92-2e127778d398")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "szendvicspanel"
+				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 83.82)
+		(size 36.83 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1a87f4a-0473-4080-9ef3-9f191c8d170d")
+		(property "Sheetname" "Tápegység"
+			(at 71.12 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tapegyseg.kicad_sch"
+			(at 71.12 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 71.12 87.63 180)
+			(uuid "fea52368-4363-437c-bd89-50bcdb05c71b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 71.12 102.87 180)
+			(uuid "3ee1619b-f63e-491f-92b7-39d4eba14518")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VPWR" output
+			(at 107.95 92.71 0)
+			(uuid "02d02a09-562c-4973-be0d-f66b48ac1b84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "szendvicspanel"
+				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

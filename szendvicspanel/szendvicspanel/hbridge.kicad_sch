@@ -1,0 +1,73 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6545588a-7d2b-471c-b120-cc397ea878c2")
+	(paper "A4")
+	(lib_symbols)
+	(text "H-híd + driver modul"
+		(exclude_from_sim no)
+		(at 99.314 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f606547-cda6-40a1-b352-eaead95a03f0")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 74.93 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fe58ab4-fd0b-4466-b1c8-292ec255aee2")
+	)
+	(hierarchical_label "VPWR"
+		(shape input)
+		(at 74.93 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2051e108-c4b0-4d0b-9ba9-16a8cac6af13")
+	)
+	(hierarchical_label "OUT_A"
+		(shape output)
+		(at 119.38 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4553cc3-138f-4baf-aece-47f99f57de50")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 74.93 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3df861f-441d-41ed-933a-2bb7a371229a")
+	)
+	(hierarchical_label "OUT_B"
+		(shape output)
+		(at 119.38 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df8e0dcc-cbd5-400c-908f-59d2f195efa9")
+	)
+)
