@@ -474,6 +474,16 @@
 		)
 		(uuid "f9ebf7cd-137c-4332-b9ee-3503fcbed31e")
 	)
+	(label "TODO: jelgen merge"
+		(at 52.07 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "983ddcb8-6b95-471d-be7b-1da916385b33")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 58.42 102.87 0)
@@ -838,7 +848,7 @@
 	)
 	(sheet
 		(at 72.39 124.46)
-		(size 31.75 12.7)
+		(size 31.75 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -862,7 +872,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 72.39 137.7446 0)
+			(at 72.39 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +881,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 72.39 134.62 180)
+			(at 72.39 137.16 180)
 			(uuid "d642357e-f350-4fb8-bfec-a73520781f59")
 			(effects
 				(font
@@ -893,6 +903,16 @@
 		(pin "VPWR" input
 			(at 72.39 128.27 180)
 			(uuid "b2371b94-036f-42ec-aff4-c0ac8d7001df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REF" input
+			(at 72.39 132.08 180)
+			(uuid "0d916533-7bc2-4a72-9210-228effc277f0")
 			(effects
 				(font
 					(size 1.27 1.27)
