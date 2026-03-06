@@ -1116,6 +1116,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 83.82) (xy 198.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7751ea-0313-47a4-92ad-0f267a782229")
+	)
+	(wire
+		(pts
 			(xy 138.43 87.63) (xy 146.05 87.63)
 		)
 		(stroke
@@ -1354,6 +1364,17 @@
 		)
 		(uuid "ff537f42-58aa-43b1-91d3-a891383a4365")
 	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 198.12 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0eb71a83-4ead-4502-8725-a2003dfdaf1a")
+	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 83.82 93.98 0)
@@ -1397,7 +1418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19bc7fce-d3e1-48ab-a9cc-b57409541c2f")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 167.9575 81.28 0)
 			(effects
 				(font
@@ -1471,7 +1492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ecfaea9-45d7-4a54-a8e4-699e3f73a0d8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 121.92 119.38 0)
 			(effects
 				(font
@@ -1543,7 +1564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33d90a49-f499-41d5-9f5f-f1538c469331")
-		(property "Reference" "C2"
+		(property "Reference" "C?"
 			(at 190.5 99.0599 0)
 			(effects
 				(font
@@ -1619,7 +1640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b00d552-41a9-4900-8d53-1359b3ae560e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR?"
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -1691,7 +1712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3b9149-2fa4-427d-9cf4-006898bd94a8")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -1779,7 +1800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d163d6b-d122-45f6-983c-62e96578f81e")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 176.53 106.6799 0)
 			(effects
 				(font
@@ -1847,6 +1868,72 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 194.31 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f1280c8-968e-4a4b-b7ed-addf2b10ab53")
+		(property "Reference" "#PWR06"
+			(at 194.31 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 194.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 194.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bca58f7-356d-4296-88f2-24ab20a44414")
+		)
+		(instances
+			(project "tapegyseg"
+				(path "/f7670cfa-9c8c-4aa4-91d3-ead739118674"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 121.92 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1855,7 +1942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4a710a8-8f0a-4a69-bb10-02d135e51c48")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 121.92 87.63 0)
 			(effects
 				(font
@@ -1927,7 +2014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d36aa1-f4b6-46f4-b5e8-800de862fb11")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 149.86 119.38 0)
 			(effects
 				(font
@@ -1999,7 +2086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3c3cd2b-8510-49ee-a948-21477b738fd3")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 149.86 82.55 90)
 			(effects
 				(font
@@ -2073,7 +2160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8847fee-02b6-4e9c-82d5-f09a4e26317c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR04"
 			(at 186.69 119.38 0)
 			(effects
 				(font
@@ -2145,7 +2232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c619b38f-cccb-479d-89fc-d3ce4a959e6a")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 125.73 99.0599 0)
 			(effects
 				(font
@@ -2221,7 +2308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c70ff151-b176-49bd-a3e7-d2f1311859b3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR03"
 			(at 173.99 119.38 0)
 			(effects
 				(font
@@ -2293,7 +2380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9fb382d-9977-447d-b3f7-3aeb2be7ee84")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 176.53 93.9799 0)
 			(effects
 				(font
@@ -2369,7 +2456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eda23679-54b8-41e3-90a1-5f7f7e8bfb1b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR?"
 			(at 78.74 102.87 0)
 			(effects
 				(font
