@@ -42,3 +42,6 @@ Kapcsolóüzemű végerősítőfokozat gyanánt H-hidat, a prototípusban TC4427
 
 ## Digitális verzió
 (Még nem tartunk itt... egyébként a [2025-ös tanfolyampanelt](https://github.com/simonyiszk/sem-armpanel-2025) szeretnénk hozzá használni.)
+
+## Dokumentáció
+analóg jelgenerátor: [modul-jelgen.md](./docs/modul-jelgen.md)

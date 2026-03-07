@@ -1,0 +1,9 @@
+# ne mentsd el a backupokat
+*-backups
+*.bak
+
+# ne mentsd el a lockokat, ha még nyitva van a projekt
+*.lck
+
+# az #auto_saved_files# és hasonlókat ne töltsd fel
+\#*\#
