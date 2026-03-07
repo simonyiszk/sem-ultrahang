@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -117,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.254,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -130,7 +136,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.508,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -440,7 +453,6 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
-      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -451,7 +463,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "szendvicspanel.kicad_pro",
+    "filename": "H-híd.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,32 +623,8 @@
   },
   "sheets": [
     [
-      "2e536be4-7a69-4064-ab31-c73232c2dcfe",
+      "305f763f-de12-41bb-934f-0329b350f563",
       "Root"
-    ],
-    [
-      "c1a87f4a-0473-4080-9ef3-9f191c8d170d",
-      "Tápegység"
-    ],
-    [
-      "2931c1ad-d139-4f81-b248-365d50218096",
-      "analóg jelgen + PWM"
-    ],
-    [
-      "956847b2-170c-4df3-ad01-276d0d878286",
-      "Analóg interfész"
-    ],
-    [
-      "b7fbd7b6-659a-4f89-885b-600b77c2197e",
-      "H-híd + driver"
-    ],
-    [
-      "6d7afa5e-da4f-405a-93e5-09e185186447",
-      "Hangszóró"
-    ],
-    [
-      "b63b0694-ab31-493f-949f-73682bffa709",
-      "Mikrovezérlő + PWM"
     ]
   ],
   "text_variables": {}
