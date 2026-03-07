@@ -242,9 +242,9 @@
 		)
 		(uuid "2bd82d38-c63c-4234-81c8-2c3cab3d7584")
 	)
-	(text "TODO: 8 féle PWM 8 külön H-hídnak"
+	(text "Maximum 8 darab H-híd lehet\n"
 		(exclude_from_sim no)
-		(at 186.182 144.526 0)
+		(at 230.378 145.034 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -252,41 +252,54 @@
 		)
 		(uuid "e29d4de4-aaec-4179-ae5b-ea518352d18b")
 	)
-	(junction
-		(at 113.03 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "640aaf4e-8052-4c9f-9af4-b0dff8796b27")
+	(no_connect
+		(at 162.56 156.21)
+		(uuid "6caea3c3-d5f5-4ac0-8540-bfaa13b707d7")
 	)
-	(junction
-		(at 167.64 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ec91dae-336d-4289-9776-2635a9b035eb")
+	(no_connect
+		(at 184.15 137.16)
+		(uuid "8ab02db9-ddf0-40cb-ab2c-85b4990b2318")
+	)
+	(bus_entry
+		(at 168.91 137.16)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a51bde9-cceb-4e06-8667-8b32d0a2e9b3")
+	)
+	(bus_entry
+		(at 173.99 137.16)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5930373f-8234-4799-9f33-0bfdba46f503")
+	)
+	(bus_entry
+		(at 179.07 137.16)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903af91a-4d98-4f78-acbb-c203be885e42")
 	)
 	(wire
 		(pts
-			(xy 66.04 128.27) (xy 72.39 128.27)
+			(xy 171.45 124.46) (xy 196.85 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "034800a4-ad1c-421b-8f7e-51814e05e7e2")
+		(uuid "12a4c7ae-e002-4bec-987d-bf0e1e5be924")
 	)
 	(wire
 		(pts
-			(xy 66.04 111.76) (xy 66.04 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "102283ed-99e4-422a-8f64-01cdb106276a")
-	)
-	(wire
-		(pts
-			(xy 210.82 125.73) (xy 223.52 125.73)
+			(xy 232.41 127) (xy 246.38 127)
 		)
 		(stroke
 			(width 0)
@@ -296,23 +309,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 156.21) (xy 167.64 128.27)
+			(xy 104.14 130.81) (xy 115.57 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d1798f2-4b07-4891-930a-3f3f81cbcd90")
+		(uuid "2d195aeb-58fc-4259-a100-f5c0c8a55bbe")
 	)
 	(wire
 		(pts
-			(xy 166.37 111.76) (xy 166.37 124.46)
+			(xy 176.53 129.54) (xy 196.85 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27bfe079-b722-49a5-8978-13cd4091583f")
+		(uuid "462147fa-5995-4f07-9d5e-c7944b6c38ba")
 	)
 	(wire
 		(pts
@@ -324,35 +337,35 @@
 		)
 		(uuid "46e11c37-e9f4-4603-8eed-be860ca4038e")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 157.48 128.27) (xy 167.64 128.27)
+			(xy 179.07 137.16) (xy 184.15 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "486f97cc-4e4c-40ee-9db5-69386487e8cb")
+		(uuid "46ff687b-871b-4067-a983-11cfce50b2cb")
 	)
 	(wire
 		(pts
-			(xy 167.64 128.27) (xy 175.26 128.27)
+			(xy 66.04 111.76) (xy 66.04 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6352779e-f9ad-42cc-b8a4-b9a8472193d9")
+		(uuid "498b1a83-4c1e-4673-b5a2-41f5e52b3003")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 157.48 156.21) (xy 167.64 156.21)
+			(xy 168.91 137.16) (xy 173.99 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "650ad41d-d95e-44c0-8b0c-f4697e2bd09c")
+		(uuid "53244fdc-9b71-47e9-ae67-d7a8df3e3ac1")
 	)
 	(wire
 		(pts
@@ -376,13 +389,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 123.19) (xy 121.92 123.19)
+			(xy 176.53 134.62) (xy 176.53 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "838b9f4e-1a1c-46bc-a415-65ec5a8a8afb")
+		(uuid "79a64e8f-a17e-4aa9-b579-4fdbf62702f8")
 	)
 	(wire
 		(pts
@@ -396,13 +409,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 166.37 111.76)
+			(xy 181.61 134.62) (xy 196.85 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3070c9f-ab52-4c63-9c98-ebab54569a72")
+		(uuid "9bd1e9ad-68cf-448b-bc93-515cdab04bef")
+	)
+	(bus
+		(pts
+			(xy 166.37 137.16) (xy 168.91 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9877f2c-086b-476b-8064-4bc9a0132def")
 	)
 	(wire
 		(pts
@@ -416,6 +439,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 156.21) (xy 162.56 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "accb47c3-8eef-4456-adbf-f62b0eb5e021")
+	)
+	(wire
+		(pts
 			(xy 107.95 92.71) (xy 113.03 92.71)
 		)
 		(stroke
@@ -424,29 +457,79 @@
 		)
 		(uuid "ae193828-9fdb-4a51-b866-443723e3962a")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 113.03 111.76) (xy 113.03 123.19)
+			(xy 166.37 137.16) (xy 166.37 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2556d83-e86a-4af0-b33e-535bc54e691f")
+		(uuid "c6bae079-52ec-4fc1-80a2-35ea79329d1e")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 166.37 124.46) (xy 175.26 124.46)
+			(xy 173.99 137.16) (xy 179.07 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d795aa7c-c092-4e51-9971-7e4505fd5ff9")
+		(uuid "c827329f-be1e-49fa-8001-6eee2d8afaab")
 	)
 	(wire
 		(pts
-			(xy 210.82 132.08) (xy 223.52 132.08)
+			(xy 104.14 127) (xy 115.57 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc65afc2-d628-434e-ac66-2aa9e2581ea9")
+	)
+	(wire
+		(pts
+			(xy 104.14 134.62) (xy 115.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf248809-4e34-4af7-b357-8b8e5b185a20")
+	)
+	(wire
+		(pts
+			(xy 66.04 134.62) (xy 72.39 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da88eea8-6433-49a8-a68f-7c2a71578166")
+	)
+	(wire
+		(pts
+			(xy 171.45 134.62) (xy 171.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c095b9-255e-4cf7-96f7-eed9c6d41e05")
+	)
+	(wire
+		(pts
+			(xy 104.14 123.19) (xy 115.57 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6af4a66-a477-47c0-bf6c-ce10bb02e7ee")
+	)
+	(wire
+		(pts
+			(xy 232.41 133.35) (xy 246.38 133.35)
 		)
 		(stroke
 			(width 0)
@@ -454,15 +537,15 @@
 		)
 		(uuid "e895d096-3911-47e8-8563-fdb7c48f6995")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 104.14 130.81) (xy 121.92 130.81)
+			(xy 166.37 130.81) (xy 165.1 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed2ec969-717a-44a2-8c86-b3ca7a5568a5")
+		(uuid "f1281d58-39ea-4fcf-a466-8f347a68d02c")
 	)
 	(wire
 		(pts
@@ -473,16 +556,6 @@
 			(type default)
 		)
 		(uuid "f9ebf7cd-137c-4332-b9ee-3503fcbed31e")
-	)
-	(label "TODO: jelgen merge"
-		(at 52.07 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "983ddcb8-6b95-471d-be7b-1da916385b33")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -683,8 +756,8 @@
 		)
 	)
 	(sheet
-		(at 121.92 120.65)
-		(size 35.56 17.78)
+		(at 115.57 119.38)
+		(size 49.53 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -699,7 +772,7 @@
 		)
 		(uuid "2931c1ad-d139-4f81-b248-365d50218096")
 		(property "Sheetname" "analóg jelgen + PWM"
-			(at 121.92 119.9384 0)
+			(at 115.57 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,7 +781,7 @@
 			)
 		)
 		(property "Sheetfile" "jelgen.kicad_sch"
-			(at 121.92 139.0146 0)
+			(at 115.57 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,18 +789,8 @@
 				(justify left top)
 			)
 		)
-		(pin "TRI" output
-			(at 157.48 124.46 0)
-			(uuid "bb75a540-f2de-4c9b-8a77-31f5c752258b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ANALOG_IN" input
-			(at 121.92 130.81 180)
+			(at 115.57 127 180)
 			(uuid "185f5ee4-a091-4aa2-bbc0-ded941af5bcc")
 			(effects
 				(font
@@ -736,19 +799,9 @@
 				(justify left)
 			)
 		)
-		(pin "PWM" output
-			(at 157.48 128.27 0)
-			(uuid "93fb4c1e-b8f7-4285-9879-52360e024342")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" input
-			(at 121.92 135.89 180)
-			(uuid "09316322-eee6-41df-bcaf-ea6c79270360")
+		(pin "VPWR_IN" input
+			(at 115.57 134.62 180)
+			(uuid "51ecda2c-d272-4214-8b1f-2900ab4309c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,9 +809,9 @@
 				(justify left)
 			)
 		)
-		(pin "VPWR" input
-			(at 121.92 123.19 180)
-			(uuid "e93d8650-7510-4d91-83cc-48a7e9b159fd")
+		(pin "+5V" input
+			(at 115.57 130.81 180)
+			(uuid "a45d39a1-41dd-4a18-bba3-ebb8d43b4881")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -766,9 +819,19 @@
 				(justify left)
 			)
 		)
-		(pin "SQR" output
-			(at 157.48 132.08 0)
-			(uuid "e8e1f64e-5d6d-40c7-a6a7-b03511a396a7")
+		(pin "GND_IN" input
+			(at 115.57 123.19 180)
+			(uuid "d37fb3ed-f138-42b1-834d-fab2471ab118")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT{VPWR[1..8] GND[1..8] PWM[1..8]}" output
+			(at 165.1 130.81 0)
+			(uuid "29d948b7-56c7-48a2-ba39-6296ae718ca0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +848,7 @@
 		)
 	)
 	(sheet
-		(at 223.52 120.65)
+		(at 246.38 121.92)
 		(size 17.78 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -801,7 +864,7 @@
 		)
 		(uuid "6d7afa5e-da4f-405a-93e5-09e185186447")
 		(property "Sheetname" "Hangszóró"
-			(at 223.52 119.9384 0)
+			(at 246.38 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +873,7 @@
 			)
 		)
 		(property "Sheetfile" "speaker.kicad_sch"
-			(at 223.52 136.4746 0)
+			(at 246.38 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,7 +882,7 @@
 			)
 		)
 		(pin "IN_B" input
-			(at 223.52 132.08 180)
+			(at 246.38 133.35 180)
 			(uuid "8d1336dc-cf8a-4597-acd2-72ab049e4810")
 			(effects
 				(font
@@ -829,7 +892,7 @@
 			)
 		)
 		(pin "IN_A" input
-			(at 223.52 125.73 180)
+			(at 246.38 127 180)
 			(uuid "38a229c8-dd62-4cd9-b413-e1056c0ae969")
 			(effects
 				(font
@@ -847,8 +910,8 @@
 		)
 	)
 	(sheet
-		(at 72.39 124.46)
-		(size 31.75 15.24)
+		(at 72.39 119.38)
+		(size 31.75 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -863,7 +926,7 @@
 		)
 		(uuid "956847b2-170c-4df3-ad01-276d0d878286")
 		(property "Sheetname" "Analóg interfész"
-			(at 72.39 123.7484 0)
+			(at 72.39 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +935,7 @@
 			)
 		)
 		(property "Sheetfile" "analog.kicad_sch"
-			(at 72.39 140.2846 0)
+			(at 72.39 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,18 +943,8 @@
 				(justify left top)
 			)
 		)
-		(pin "GND" input
-			(at 72.39 137.16 180)
-			(uuid "d642357e-f350-4fb8-bfec-a73520781f59")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ANALOG_OUT" output
-			(at 104.14 130.81 0)
+			(at 104.14 127 0)
 			(uuid "e4bac08d-c70b-459b-957e-9f8acba199dd")
 			(effects
 				(font
@@ -900,9 +953,19 @@
 				(justify right)
 			)
 		)
-		(pin "VPWR" input
-			(at 72.39 128.27 180)
-			(uuid "b2371b94-036f-42ec-aff4-c0ac8d7001df")
+		(pin "+5V_OUT" output
+			(at 104.14 130.81 0)
+			(uuid "f3b75b14-fa82-444a-bea3-ffc0fd1ea931")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND_IN" input
+			(at 72.39 123.19 180)
+			(uuid "7b8f9f34-efec-48f4-9c59-17f9b586a6b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,9 +973,59 @@
 				(justify left)
 			)
 		)
-		(pin "REF" input
-			(at 72.39 132.08 180)
-			(uuid "0d916533-7bc2-4a72-9210-228effc277f0")
+		(pin "+5V_IN" input
+			(at 72.39 130.81 180)
+			(uuid "9763c4d9-58d3-4e44-813d-43b5faf4286e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REF_IN" input
+			(at 87.63 138.43 270)
+			(uuid "4a0a8e1d-ef13-4c81-b286-ab85407fc173")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VPWR_OUT" output
+			(at 104.14 134.62 0)
+			(uuid "50aa4cbd-de5b-4d83-8938-d8f95a1cb9f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VPWR_IN" input
+			(at 72.39 134.62 180)
+			(uuid "dab30b35-9ce5-4d30-851a-102e55e9ae57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND_OUT" output
+			(at 104.14 123.19 0)
+			(uuid "0d5a6bba-5a7e-488f-9e73-59e7d19e182a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X" input
+			(at 72.39 127 180)
+			(uuid "7426181b-2dec-4c74-b60a-8876c47650e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,8 +1124,8 @@
 		)
 	)
 	(sheet
-		(at 175.26 120.65)
-		(size 35.56 15.24)
+		(at 196.85 120.65)
+		(size 35.56 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1027,7 +1140,7 @@
 		)
 		(uuid "b7fbd7b6-659a-4f89-885b-600b77c2197e")
 		(property "Sheetname" "H-híd + driver"
-			(at 175.26 119.9384 0)
+			(at 196.85 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1149,7 @@
 			)
 		)
 		(property "Sheetfile" "hbridge.kicad_sch"
-			(at 175.26 136.4746 0)
+			(at 196.85 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1158,7 @@
 			)
 		)
 		(pin "VPWR" input
-			(at 175.26 124.46 180)
+			(at 196.85 124.46 180)
 			(uuid "9ece35ec-c38e-4354-83f4-f96a98dc5006")
 			(effects
 				(font
@@ -1055,7 +1168,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 175.26 133.35 180)
+			(at 196.85 134.62 180)
 			(uuid "9678f3e8-c742-4944-b556-a588c5667ea8")
 			(effects
 				(font
@@ -1065,7 +1178,7 @@
 			)
 		)
 		(pin "PWM" input
-			(at 175.26 128.27 180)
+			(at 196.85 129.54 180)
 			(uuid "7ca98254-40e0-4ca7-a24d-1fc6ae721738")
 			(effects
 				(font
@@ -1075,7 +1188,7 @@
 			)
 		)
 		(pin "OUT_B" output
-			(at 210.82 132.08 0)
+			(at 232.41 133.35 0)
 			(uuid "8abbd659-e85d-471c-bcaf-296e424d9271")
 			(effects
 				(font
@@ -1085,7 +1198,7 @@
 			)
 		)
 		(pin "OUT_A" output
-			(at 210.82 125.73 0)
+			(at 232.41 127 0)
 			(uuid "a8f28661-f1e3-4d14-aa92-2e127778d398")
 			(effects
 				(font
