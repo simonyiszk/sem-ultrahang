@@ -983,16 +983,6 @@
 				(justify left)
 			)
 		)
-		(pin "REF_IN" input
-			(at 87.63 138.43 270)
-			(uuid "4a0a8e1d-ef13-4c81-b286-ab85407fc173")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VPWR_OUT" output
 			(at 104.14 134.62 0)
 			(uuid "50aa4cbd-de5b-4d83-8938-d8f95a1cb9f1")
