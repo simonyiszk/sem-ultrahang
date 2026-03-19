@@ -4,7 +4,7 @@
 
 Modulok:
  - tápegység
- - analóg interfész
+ - [analóg interfész](./modul-analog-interfesz.md)
  - [analóg jelgenerátor](./modul-jelgen.md)
  - mikrovezérlős jelgenerátor
  - H-híd
