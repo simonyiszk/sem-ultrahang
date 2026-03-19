@@ -18,7 +18,7 @@ A jack inputról 2 jel jön be, a bal és a jobb csatorna. A szimulációban és
 
 A lowpass filtert a következő egyenlet írja le:
 
-$ f_c = {1 \over 2\pi R C} $, ahol:
+$f_c = {1 \over 2\pi R C}$, ahol:
  - $f_c \approx 20\text{kHz}$
  - $R = 220 Ω$
  - $C = 36\text{nF}$
