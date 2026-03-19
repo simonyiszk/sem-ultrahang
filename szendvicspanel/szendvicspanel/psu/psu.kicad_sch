@@ -1418,7 +1418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19bc7fce-d3e1-48ab-a9cc-b57409541c2f")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 167.9575 81.28 0)
 			(effects
 				(font
@@ -1470,7 +1470,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1492,7 +1492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ecfaea9-45d7-4a54-a8e4-699e3f73a0d8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 121.92 119.38 0)
 			(effects
 				(font
@@ -1542,7 +1542,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "#PWR?")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1640,7 +1640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b00d552-41a9-4900-8d53-1359b3ae560e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR04"
 			(at 78.74 88.9 0)
 			(effects
 				(font
@@ -1690,7 +1690,7 @@
 		(instances
 			(project ""
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "#PWR015")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1712,7 +1712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3b9149-2fa4-427d-9cf4-006898bd94a8")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -1778,7 +1778,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1800,7 +1800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d163d6b-d122-45f6-983c-62e96578f81e")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 176.53 106.6799 0)
 			(effects
 				(font
@@ -1854,7 +1854,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1876,7 +1876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1280c8-968e-4a4b-b7ed-addf2b10ab53")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR011"
 			(at 194.31 87.63 0)
 			(effects
 				(font
@@ -1926,7 +1926,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "#PWR?")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1948,7 +1948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4a710a8-8f0a-4a69-bb10-02d135e51c48")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 121.92 87.63 0)
 			(effects
 				(font
@@ -1998,7 +1998,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "#PWR?")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2020,7 +2020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d36aa1-f4b6-46f4-b5e8-800de862fb11")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR08"
 			(at 149.86 119.38 0)
 			(effects
 				(font
@@ -2070,7 +2070,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "#PWR?")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3c3cd2b-8510-49ee-a948-21477b738fd3")
-		(property "Reference" "L?"
+		(property "Reference" "L1"
 			(at 149.86 82.55 90)
 			(effects
 				(font
@@ -2144,7 +2144,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "L?")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2166,7 +2166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8847fee-02b6-4e9c-82d5-f09a4e26317c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR010"
 			(at 186.69 119.38 0)
 			(effects
 				(font
@@ -2216,7 +2216,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "#PWR?")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2238,7 +2238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c619b38f-cccb-479d-89fc-d3ce4a959e6a")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 125.73 99.0599 0)
 			(effects
 				(font
@@ -2292,7 +2292,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2314,7 +2314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c70ff151-b176-49bd-a3e7-d2f1311859b3")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR09"
 			(at 173.99 119.38 0)
 			(effects
 				(font
@@ -2364,7 +2364,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "#PWR?")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2386,7 +2386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9fb382d-9977-447d-b3f7-3aeb2be7ee84")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 176.53 93.9799 0)
 			(effects
 				(font
@@ -2440,7 +2440,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2462,7 +2462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eda23679-54b8-41e3-90a1-5f7f7e8bfb1b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR05"
 			(at 78.74 102.87 0)
 			(effects
 				(font
@@ -2512,7 +2512,7 @@
 		(instances
 			(project "szendvicspanel"
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe/c1a87f4a-0473-4080-9ef3-9f191c8d170d"
-					(reference "#PWR014")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)

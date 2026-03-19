@@ -567,7 +567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10f0cc0f-0e03-4573-940e-e502ab9c4275")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 58.42 109.22 0)
 			(effects
 				(font
@@ -617,7 +617,7 @@
 		(instances
 			(project ""
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -633,7 +633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a627e91-7434-4118-85cc-68a7e1917ed0")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 58.42 90.17 0)
 			(effects
 				(font
@@ -683,7 +683,7 @@
 		(instances
 			(project ""
 				(path "/2e536be4-7a69-4064-ab31-c73232c2dcfe"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -780,7 +780,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "jelgen.kicad_sch"
+		(property "Sheetfile" "analog-pwm/analog-pwm.kicad_sch"
 			(at 115.57 139.0146 0)
 			(effects
 				(font
@@ -872,7 +872,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "speaker.kicad_sch"
+		(property "Sheetfile" "speaker/speaker.kicad_sch"
 			(at 246.38 137.7446 0)
 			(effects
 				(font
@@ -934,7 +934,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "analog.kicad_sch"
+		(property "Sheetfile" "analog-interface/analog-interface.kicad_sch"
 			(at 72.39 139.0146 0)
 			(effects
 				(font
@@ -1056,7 +1056,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "controller.kicad_sch"
+		(property "Sheetfile" "controller/controller.kicad_sch"
 			(at 121.92 163.1446 0)
 			(effects
 				(font
@@ -1138,7 +1138,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "hbridge.kicad_sch"
+		(property "Sheetfile" "hbridge/hbridge.kicad_sch"
 			(at 196.85 137.7446 0)
 			(effects
 				(font
@@ -1230,7 +1230,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "tapegyseg.kicad_sch"
+		(property "Sheetfile" "psu/psu.kicad_sch"
 			(at 71.12 105.9946 0)
 			(effects
 				(font
