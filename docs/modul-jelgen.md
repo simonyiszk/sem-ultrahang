@@ -7,7 +7,9 @@ A H-hidak hajtják meg a hangszórókat.
 
 PCB:
 
-![](./img/modul-jelgen-inputs.png)
+![](./img/modul-jelgen-pcb.png)
+
+Kell hozzá 3 vezeték áthidaláshoz:(
 
 Inputok és tesztpontok:
 
