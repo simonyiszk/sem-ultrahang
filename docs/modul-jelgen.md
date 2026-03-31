@@ -5,6 +5,8 @@ A bejövő `ANALOG_IN` jelet pulzusszélesség-modulálja (PWM). Az analóg jele
 
 A H-hidak hajtják meg a hangszórókat.
 
+Plot: [itt](../szendvicspanel/jelgen/jelgen-B_Cu.pdf)
+
 PCB:
 
 ![](./img/modul-jelgen-pcb.png)
