@@ -45,3 +45,4 @@ fp-info-cache
 *.log
 *.raw
 *.plt
+.history

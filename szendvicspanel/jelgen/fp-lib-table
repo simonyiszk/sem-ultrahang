@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "sajat") (type "KiCad") (uri "${KIPRJMOD}/sajat.pretty") (options "") (descr ""))
+)
